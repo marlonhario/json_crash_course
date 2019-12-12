@@ -1,0 +1,61 @@
+What is JSON?
+	- JavaScript Object Notation
+	- Lightweight data-interchange format
+	- Based on a subset of JavaScript
+	- Easy to read and write
+	- Often used with AJAX
+	- Can be used with most modern languages
+
+Data Types
+	- Number: No difference between integer and floats
+	- String: String of Unicode characters. USe double quotes
+	- Boolean: True or false
+	- Array: Ordered list of 0 or more values
+	- Object: Unordered collection of key/value pairs
+	- Null: empty value
+
+JSON Syntax Rules
+	- Uses key/value pairs - {"name":"Brad"}
+	- Uses double quotes around KEY and VALUE
+	- Must use the specified data types
+	- File type is ".json"
+	- MIME type is "Application/json"
+
+JSON Example
+	{
+		"name":"Brad Traversy",
+		"age":35
+		"address":{
+			"street":"5 main st",
+			"city":"Boston"
+		},
+		"children":["Brianna", "Nicholas"]
+	}
+
+
+
+show available node list ===============
+	: nvm list available	
+
+install specific version in nvm ============
+	: nvm install 8.11.4	
+
+use node version using nvm =============
+	: nvm use 8.11.4
+
+show version ==========
+	: node -v
+	: npm -v
+
+show list available installed node ==========
+	: nvm list
+
+
+install liveserver using node =========
+	:CD:\(project directpry)> npm install -g live-server	
+
+
+to open live server ===========
+	:CD:\(project directpry)> live-server
+
+doneeeeeeeeeeeeeeeeeeeee
